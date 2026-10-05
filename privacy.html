@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boss Studio privacy policy</title>
+<meta name="description" content="How Boss Studio uses and protects data, including YouTube data accessed through the YouTube API Services.">
+<style>
+  :root { --bg: #16121f; --panel: #221b30; --ink: #fff8ec; --muted: #cfc4e2; --pop: #ffcc33; --line: #3b2f55; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 72px; }
+  h1 { font-size: clamp(32px, 6vw, 44px); line-height: 1.1; margin: 0 0 6px; }
+  h2 { font-size: 21px; margin: 32px 0 6px; }
+  p, li { color: var(--muted); }
+  ul { padding-left: 22px; }
+  a { color: var(--pop); font-weight: 700; }
+  .date { color: var(--ink); font-weight: 700; }
+  .note { background: var(--panel); border: 3px solid var(--line); border-radius: 18px; padding: 16px 20px; margin-top: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Boss Studio</a></p>
+  <h1>Privacy policy</h1>
+  <p class="date">Effective 5 October 2026</p>
+
+  <div class="note">
+    <p>Boss Studio is a personal desktop app used only by its maker, The Wheezing Predator, with their own recordings and their own YouTube channel. It has no servers, no analytics and no advertising. This policy explains what it does with data, including data from YouTube.</p>
+  </div>
+
+  <h2>YouTube API Services</h2>
+  <p>Boss Studio uses the YouTube API Services. By connecting a YouTube account to Boss Studio, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of your data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>What Boss Studio accesses</h2>
+  <p>Only after you sign in with Google and allow it, Boss Studio uses your YouTube account to:</p>
+  <ul>
+    <li>read your channel's name and picture, to show which channel it uploads to;</li>
+    <li>upload the videos you choose, with the title, description, chapters and privacy setting you choose;</li>
+    <li>set the thumbnail you picked on those videos;</li>
+    <li>list your playlists and add uploaded videos to the playlist you choose.</li>
+  </ul>
+  <p>It doesn't read your comments, subscribers, analytics, messages or other videos, and it doesn't post anything you haven't asked it to upload.</p>
+
+  <h2>What it stores, and where</h2>
+  <p>Everything stays on the PC Boss Studio runs on:</p>
+  <ul>
+    <li>the Google sign-in token, encrypted with Windows' own protection for your user account;</li>
+    <li>your channel's name and ID, and a record of what was uploaded (title, description, video ID and upload progress);</li>
+    <li>your stream recordings' transcripts, the writing and thumbnails made for them, and your settings.</li>
+  </ul>
+  <p>Boss Studio never sends YouTube data to any server of its own (it has none). YouTube data is kept for as long as you use Boss Studio, and you can delete it at any time (see below).</p>
+
+  <h2>Who data is shared with</h2>
+  <p>Boss Studio doesn't sell, rent or share data. It only sends data to the services that do the work you ask for:</p>
+  <ul>
+    <li><strong>Google / YouTube:</strong> the videos, details and thumbnails you upload.</li>
+    <li><strong>The AI services you connect</strong> to write titles and draw thumbnails: stream transcripts go to Anthropic's Claude (through your own Claude Code sign-in); thumbnail briefs and your photo go to OpenAI (through your own Codex and ChatGPT sign-in) or Google Gemini, whichever you choose. YouTube API data isn't sent to these services.</li>
+  </ul>
+
+  <h2>Removing access and deleting data</h2>
+  <ul>
+    <li>Press <strong>Disconnect</strong> in Boss Studio's Settings. Boss Studio revokes its Google access and deletes the token from your PC.</li>
+    <li>You can also remove Boss Studio's access at any time from your Google account's <a href="https://myaccount.google.com/connections">third-party connections</a> page (<a href="https://security.google.com/settings/security/permissions">security settings</a>).</li>
+    <li>To delete everything Boss Studio stores, uninstall it and delete its data folders (<code>%APPDATA%\Boss Studio</code> and <code>%LOCALAPPDATA%\Boss Studio</code>).</li>
+  </ul>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the new version will be posted here with a new date. Questions: <a href="mailto:dread@criticalitypoint.info">dread@criticalitypoint.info</a>.</p>
+</main>
+</body>
+</html>

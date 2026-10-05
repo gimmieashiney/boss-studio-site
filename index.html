@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boss Studio</title>
+<meta name="description" content="Boss Studio is The Wheezing Predator's personal app for turning stream recordings into YouTube videos.">
+<style>
+  :root { --bg: #16121f; --panel: #221b30; --ink: #fff8ec; --muted: #b9adcf; --pop: #ffcc33; --hot: #ff4f6d; --line: #3b2f55; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 20px 72px; }
+  h1 { font-size: clamp(40px, 8vw, 64px); line-height: 1; margin: 0 0 8px; }
+  h1 span { color: var(--hot); }
+  .tag { display: inline-block; background: var(--pop); color: #0e0a16; font-weight: 800; font-size: 12px; letter-spacing: .15em; padding: 3px 10px; border-radius: 999px; }
+  .card { background: var(--panel); border: 3px solid var(--line); border-radius: 20px; padding: 22px 24px; margin-top: 28px; }
+  h2 { margin: 0 0 8px; font-size: 22px; }
+  ul { padding-left: 22px; margin: 8px 0 0; }
+  li { margin: 4px 0; }
+  p { color: var(--muted); }
+  a { color: var(--pop); font-weight: 700; }
+  footer { margin-top: 36px; color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="tag">STREAM → YOUTUBE</span>
+  <h1>Boss <span>Studio</span></h1>
+  <p>Boss Studio is a personal desktop app made by and for The Wheezing Predator, a gaming streamer. It isn't sold or offered to the public: it runs on one PC and works only with the streamer's own recordings and own YouTube channel.</p>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <ul>
+      <li>Runs the on-stream overlay: timer, death counter, goal, rules and Twitch chat.</li>
+      <li>Transcribes finished stream recordings on the PC.</li>
+      <li>Helps write each episode's YouTube title, description and chapters, and draws thumbnails.</li>
+      <li>Uploads the finished episode to the streamer's own YouTube channel through the YouTube API Services, with the title, description, chapters, thumbnail and playlist the streamer picked.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Your data</h2>
+    <p>Boss Studio has no servers and no accounts of its own. Everything it keeps stays on the streamer's PC. Read the <a href="privacy.html">privacy policy</a> for exactly what it uses and how to remove its access.</p>
+  </div>
+
+  <footer>
+    Boss Studio uses YouTube API Services. <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> · <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="privacy.html">Boss Studio privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
